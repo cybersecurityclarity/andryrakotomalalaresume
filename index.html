@@ -1,1 +1,261 @@
-TBD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andry Rakotomalala | Cybersecurity Instructor & Trainer</title>
+    <style>
+        /* CSS is embedded here for simplicity, following the color scheme */
+        :root {
+            --primary-color: #FFC72C; /* Gold/Yellow from the logo */
+            --secondary-color: #1a1a1a; /* Dark background */
+            --text-color: #f0f0f0; /* Light text */
+            --accent-color: #e5a000; /* Darker yellow for highlights */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background: var(--secondary-color);
+            color: var(--primary-color);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 3px solid var(--primary-color);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        nav a {
+            color: var(--primary-color);
+            padding: 0 1.5rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--accent-color);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Hero Section */
+        #hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: radial-gradient(circle, var(--secondary-color) 0%, #000000 100%);
+        }
+
+        #hero img.logo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid var(--primary-color);
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        #hero h1 {
+            color: var(--primary-color);
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        #hero p.subtitle {
+            font-size: 1.2em;
+            color: var(--text-color);
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+            padding: 12px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 1.1em;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: var(--accent-color);
+        }
+
+        /* General Section Styling */
+        section {
+            padding: 50px 0;
+            border-bottom: 1px solid #333;
+        }
+
+        h2 {
+            text-align: center;
+            color: var(--primary-color);
+            font-size: 2em;
+            margin-bottom: 30px;
+            border-bottom: 2px solid var(--accent-color);
+            display: inline-block;
+            padding-bottom: 5px;
+            width: 100%;
+        }
+
+        .stats-grid {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            padding: 10px 20px;
+        }
+
+        .stat-item strong {
+            display: block;
+            font-size: 2em;
+            color: var(--primary-color);
+        }
+
+        /* Testimonial Styling */
+        #testimonials .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .testimonial-card {
+            background-color: #333;
+            padding: 20px;
+            border-left: 5px solid var(--primary-color);
+            border-radius: 5px;
+            font-style: italic;
+            position: relative;
+        }
+
+        .testimonial-card p:before {
+            content: "\201C";
+            font-size: 2em;
+            color: var(--primary-color);
+            line-height: 0.1;
+            margin-right: 5px;
+            vertical-align: -0.4em;
+            display: inline-block;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 3px solid var(--primary-color);
+            color: var(--text-color);
+            background-color: var(--secondary-color);
+        }
+
+        footer a {
+            color: var(--primary-color);
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        
+        ul.skills-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        ul.skills-list li {
+            background: var(--primary-color);
+            color: var(--secondary-color);
+            padding: 8px 15px;
+            margin: 5px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#instruction">Portfolio</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <img src="Circle Logo.jpg" alt="Cybersecurity Clarity Logo" class="logo">
+        <h1>Andry Rakotomalala, MBA | Cybersecurity Clarity Instructor</h1>
+        <p class="subtitle">11 Years of Experience in **People-Focused Programs** that Drive Behavior Change and Reduce Risk.</p>
+        <a href="#contact" class="cta-button">Hire Me for Instruction & Training</a>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About Me & Expertise</h2>
+        <p>I am a seasoned cybersecurity and project management professional. My strength lies in my ability to simplify complex concepts and deliver high-impact training that consistently boosts engagement and retention. I specialize in GRC, security awareness training, and SaaS implementation.</p>
+        <p>I have trained over 4,500 learners and I bring a detail-oriented, customer-focused approach to every project.</p>
+        
+        <h3>Core Skills for Instruction</h3>
+        <ul class="skills-list">
+            <li>Cybersecurity Awareness & Training</li>
+            <li>Training Development & Delivery</li>
+            <li>Emotional Intelligence in Training</li>
+            <li>Simplifying Complex Concepts</li>
+            <li>Project Management (Agile/Waterfall)</li>
+            <li>GRC & Regulatory Compliance</li>
+            <li>Exceptional Presentation skills</li>
+            <li>Certified Security Awareness Professional</li>
+        </ul>
+        
+        <h3>Key Metrics</h3>
+        <div class="stats-grid">
+            <div class="stat-item"><strong>11+</strong> Years Experience</div>
+            <div class="stat-item"><strong>4,500+</strong> Learners Trained</div>
+            <div class="stat-item"><strong>4.2/5</strong> Course Rating</div>
+            <div class="stat-item"><strong>90%+</strong> Learner Satisfaction</div>
+        </div>
+    </section>
+
+    <section id="instruction" class="container">
+        <h2>Instruction & Course Creation Portfolio</h2>
+        
+        <h3>Lead Cybersecurity Instructor (Freelance Contract)</h3>
+        <p>Delivered 70+ hours of live instruction to over 8,000 learners. Rated as an **outstanding instructor** for clarity, energy, and empathy, driving learner satisfaction scores above 90%.</p>
+        <ul>
+            <li>Taught all levels of cybersecurity classes to adults at universities including **NYU, UNLV, SDSU, CUB, and ASU**.</li>
+            <li>Developed and delivered cybersecurity courses for over 2000 learners (rising) scoring a **4.2/5 rating**.</li>
+            <li>Enhanced cybersecurity awareness redesigning core modules and live Q&A flow, improving class participation and retention by **35%**.</li>
+            <li>Taught 3 Coursera courses: *Cybersecurity Best Practices, Data Protection, and Disaster Recovery*, with over 2,100 learners.</li>
+        </ul>
+
+        <h3>Professional Presentations & GRC Expertise</h3>
+        <p>My professional experience informs my instruction, providing real-world context on governance, risk, and compliance.</p>
+        <ul>
+            <li>Directed Red Team assessments using **NIST, OWASP, and COBIT** frameworks.</li>
+            <li>Led adversary simulations, identifying
